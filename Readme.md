@@ -103,11 +103,11 @@ The project combines multiple OpenCV algorithms to improve robustness under vary
 
 ### Application Interface
 
-![Home Screen](screenshots/home_screen.png)
+![App Interface](app_interface.png)
 
-![Scanning](screenshots/scanning.png)
+![Scanning](scanning.png)
 
-![Result](screenshots/result.png)
+![Result](result.png)
 
 ### Demo Video
 

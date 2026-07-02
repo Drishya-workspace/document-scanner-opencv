@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements an intelligent document scanner capable of automatically detecting the boundaries of a document captured under different background conditions and transforming it into a top-down scanned image.
+This project implements a document scanner capable of automatically detecting the boundaries of a document captured under different background conditions and transforming it into a top-down scanned image.
 
 The scanner combines multiple computer vision techniques including thresholding, edge detection, contour analysis, convex hull generation, polygon approximation, and perspective transformation to accurately detect documents even on textured backgrounds.
 

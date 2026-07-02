@@ -173,15 +173,3 @@ Through this project, I gained practical experience in:
 
 ---
 
-## Repository Structure
-
-```text
-document-scanner-opencv/
-
-├── scanning.png
-├── result.png
-├── app_interface.png
-├── document_scanner_demo.mp4
-│
-└── README.md
-```

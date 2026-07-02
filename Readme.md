@@ -109,7 +109,7 @@ The project combines multiple OpenCV algorithms to improve robustness under vary
 
 ### Demo Video
 
-The complete working demonstration of the application is available in the `demo` folder.
+The complete working demonstration of the application is available in repository.
 
 ## Challenges Addressed
 

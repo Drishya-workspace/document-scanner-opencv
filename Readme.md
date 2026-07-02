@@ -103,8 +103,6 @@ The project combines multiple OpenCV algorithms to improve robustness under vary
 
 ### Application Interface
 
-![App Interface](app_interface.jpg)
-
 ![Scanning](scanning.jpg)
 
 ![Result](result.jpg)

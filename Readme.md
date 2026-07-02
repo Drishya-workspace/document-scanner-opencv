@@ -6,7 +6,7 @@ This project implements a document scanner capable of automatically detecting th
 
 The scanner combines multiple computer vision techniques including thresholding, edge detection, contour analysis, convex hull generation, polygon approximation, and perspective transformation to accurately detect documents even on textured backgrounds.
 
-The document scanning pipeline was integrated into an interactive application to provide a user-friendly scanning experience. OpenAI Codex was used as a development assistant during the application's implementation.
+The document scanning pipeline was integrated into an interactive application to provide a user-friendly scanning experience.
 
 ---
 

@@ -1,4 +1,4 @@
-# Intelligent Document Scanner using OpenCV
+# Document Scanner using OpenCV
 
 ## Overview
 

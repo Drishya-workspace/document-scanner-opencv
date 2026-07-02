@@ -178,13 +178,10 @@ Through this project, I gained practical experience in:
 ```text
 document-scanner-opencv/
 
-├── screenshots/
-│   ├── scanning.png
-│   ├── result.png
-│   └── app_interface.png
-│
-├── demo/
-│   └── document_scanner_demo.mp4
+├── scanning.png
+├── result.png
+├── app_interface.png
+├── document_scanner_demo.mp4
 │
 └── README.md
 ```

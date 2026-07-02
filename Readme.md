@@ -33,43 +33,36 @@ The document scanning pipeline was integrated into an interactive application to
 
 ---
 
- ## Document Detection Pipeline
+## Document Detection Pipeline
 
+```text
 Input Image
-      │
-      ▼
+    ↓
 Grayscale Conversion
-      │
-      ▼
+    ↓
 Gaussian Blur
-      │
-      ▼
- ┌───────────────────────────────┐
- │                               │
- ▼                               ▼
-Otsu Thresholding          Canny Edge Detection
- │                               │
- ▼                               ▼
-Morphological             Dilation & Erosion
-Closing + Opening
- │                               │
- └──────────────┬────────────────┘
-                ▼
-        Contour Detection
-                ▼
-     Area-based Contour Filtering
-                ▼
-         Convex Hull Generation
-                ▼
- Polygon Approximation (4 Corners)
-                ▼
-        Corner Point Ordering
-                ▼
-     Perspective Transformation
-                ▼
-       Scanned Document Output
-
----
+    ↓
+Otsu Thresholding
+    ↓
+Canny Edge Detection
+    ↓
+Morphological Operations
+(Dilation → Erosion → Closing → Opening)
+    ↓
+Contour Detection
+    ↓
+Area-based Contour Filtering
+    ↓
+Convex Hull Generation
+    ↓
+Polygon Approximation (4 Corners)
+    ↓
+Corner Point Ordering
+    ↓
+Perspective Transformation
+    ↓
+Scanned Document Output
+```
 
 ## Image Processing Techniques
 
